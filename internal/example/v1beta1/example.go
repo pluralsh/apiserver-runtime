@@ -17,12 +17,12 @@ limitations under the License.
 package v1beta1
 
 import (
+	"github.com/pluralsh/apiserver-runtime/internal/example/v1alpha1"
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"sigs.k8s.io/apiserver-runtime/internal/example/v1alpha1"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/resource"
 )
 
 var _ resource.Object = &ExampleResource{}

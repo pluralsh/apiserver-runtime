@@ -17,8 +17,8 @@ limitations under the License.
 package validation
 
 import (
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/apis/wardle"
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/apis/wardle"
 )
 
 // ValidateFlunder validates a Flunder.

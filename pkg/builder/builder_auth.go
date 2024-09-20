@@ -1,9 +1,9 @@
 package builder
 
 import (
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/cmd/server"
 	"github.com/spf13/pflag"
 	"k8s.io/klog/v2"
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/cmd/server"
 )
 
 var enableAuthorization bool

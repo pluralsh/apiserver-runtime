@@ -17,12 +17,12 @@ limitations under the License.
 package flunder
 
 import (
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/apis/wardle"
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/registry"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apiserver/pkg/registry/generic"
 	genericregistry "k8s.io/apiserver/pkg/registry/generic/registry"
 	"k8s.io/apiserver/pkg/registry/rest"
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/apis/wardle"
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/registry"
 )
 
 // NewREST returns a RESTStorage object that will work against API services.

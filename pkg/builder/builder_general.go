@@ -1,10 +1,10 @@
 package builder
 
 import (
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/apiserver"
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/cmd/server"
 	"github.com/spf13/pflag"
 	pkgserver "k8s.io/apiserver/pkg/server"
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/apiserver"
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/cmd/server"
 )
 
 // WithOptionsFns sets functions to customize the ServerOptions used to create the apiserver

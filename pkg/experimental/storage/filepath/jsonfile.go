@@ -2,14 +2,14 @@
 package filepath
 
 import (
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/resource"
+	builderrest "github.com/pluralsh/apiserver-runtime/pkg/builder/rest"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/apiserver/pkg/registry/generic"
 	"k8s.io/apiserver/pkg/registry/rest"
 	"k8s.io/apiserver/pkg/server/storage"
 	"k8s.io/apiserver/pkg/storage/storagebackend"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/resource"
-	builderrest "sigs.k8s.io/apiserver-runtime/pkg/builder/rest"
 )
 
 // NewJSONFilepathStorageProvider use local host path as persistent layer storage:

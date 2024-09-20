@@ -19,13 +19,13 @@ package v1alpha1
 import (
 	"context"
 
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/resource/resourcestrategy"
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/resource/resourcestrategy"
 
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/resource"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/validation/field"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/resource"
 )
 
 var _ resource.Object = &Flunder{}

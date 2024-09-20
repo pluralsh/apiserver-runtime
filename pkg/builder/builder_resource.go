@@ -21,12 +21,12 @@ import (
 
 	"k8s.io/klog/v2"
 
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/apiserver"
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/resource"
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/resource/resourcerest"
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/rest"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	regsitryrest "k8s.io/apiserver/pkg/registry/rest"
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/apiserver"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/resource"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/resource/resourcerest"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/rest"
 )
 
 // WithResource registers the resource with the apiserver.

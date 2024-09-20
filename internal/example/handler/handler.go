@@ -25,9 +25,9 @@ import (
 	genericregistry "k8s.io/apiserver/pkg/registry/generic"
 	regsitryrest "k8s.io/apiserver/pkg/registry/rest"
 
-	"sigs.k8s.io/apiserver-runtime/internal/example/v1alpha1"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/rest"
+	"github.com/pluralsh/apiserver-runtime/internal/example/v1alpha1"
+	"github.com/pluralsh/apiserver-runtime/pkg/builder"
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/rest"
 )
 
 var _ rest.ResourceHandlerProvider = ExampleHandlerProvider

@@ -17,11 +17,11 @@ limitations under the License.
 package server
 
 import (
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/apiserver"
 	"github.com/spf13/pflag"
 	"k8s.io/apiserver/pkg/endpoints/openapi"
 	pkgserver "k8s.io/apiserver/pkg/server"
 	openapicommon "k8s.io/kube-openapi/pkg/common"
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/apiserver"
 )
 
 var (

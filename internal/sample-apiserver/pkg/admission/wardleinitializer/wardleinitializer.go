@@ -17,8 +17,8 @@ limitations under the License.
 package wardleinitializer
 
 import (
+	informers "github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/generated/informers/externalversions"
 	"k8s.io/apiserver/pkg/admission"
-	informers "sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/generated/informers/externalversions"
 )
 
 type pluginInitializer struct {

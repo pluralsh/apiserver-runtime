@@ -19,14 +19,14 @@ package builder_test
 import (
 	"fmt"
 
-	"sigs.k8s.io/apiserver-runtime/internal/example/handler"
-	"sigs.k8s.io/apiserver-runtime/internal/example/strategy"
-	"sigs.k8s.io/apiserver-runtime/internal/example/v1alpha1"
-	"sigs.k8s.io/apiserver-runtime/internal/example/v1beta1"
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/generated/openapi"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/resource"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/rest"
+	"github.com/pluralsh/apiserver-runtime/internal/example/handler"
+	"github.com/pluralsh/apiserver-runtime/internal/example/strategy"
+	"github.com/pluralsh/apiserver-runtime/internal/example/v1alpha1"
+	"github.com/pluralsh/apiserver-runtime/internal/example/v1beta1"
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/generated/openapi"
+	"github.com/pluralsh/apiserver-runtime/pkg/builder"
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/resource"
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/rest"
 )
 
 // Example registers a resource with the apiserver using etcd for storage.

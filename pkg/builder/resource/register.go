@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"reflect"
 
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/resource/resourcestrategy"
 	autoscalingv1 "k8s.io/api/autoscaling/v1"
 	"k8s.io/apimachinery/pkg/conversion"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/resource/resourcestrategy"
 )
 
 // AddToScheme returns a function to add the Objects to the scheme.

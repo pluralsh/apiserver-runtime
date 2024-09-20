@@ -19,10 +19,10 @@ package v1alpha1
 import (
 	"context"
 
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/resource/resourcestrategy"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/resource/resourcestrategy"
 )
 
 type ExampleResource struct {

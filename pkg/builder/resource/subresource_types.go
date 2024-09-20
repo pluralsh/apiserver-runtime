@@ -19,8 +19,8 @@ package resource
 import (
 	"net/url"
 
+	"github.com/pluralsh/apiserver-runtime/pkg/builder/resource/resourcerest"
 	"k8s.io/apiserver/pkg/registry/rest"
-	"sigs.k8s.io/apiserver-runtime/pkg/builder/resource/resourcerest"
 )
 
 // SubResource defines interface for registering arbitrary subresource to the parent resource.

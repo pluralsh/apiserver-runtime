@@ -21,6 +21,7 @@ import (
 	"fmt"
 	"k8s.io/apiserver/pkg/registry/rest"
 
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/apis/wardle/validation"
 	"k8s.io/apimachinery/pkg/fields"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime"
@@ -28,9 +29,8 @@ import (
 	"k8s.io/apiserver/pkg/registry/generic"
 	"k8s.io/apiserver/pkg/storage"
 	"k8s.io/apiserver/pkg/storage/names"
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/apis/wardle/validation"
 
-	"sigs.k8s.io/apiserver-runtime/internal/sample-apiserver/pkg/apis/wardle"
+	"github.com/pluralsh/apiserver-runtime/internal/sample-apiserver/pkg/apis/wardle"
 )
 
 // NewStrategy creates and returns a flunderStrategy instance
